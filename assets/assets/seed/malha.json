@@ -1,0 +1,269 @@
+{
+  "regioes": [
+    {
+      "id": "seed-r1",
+      "nome": "Vale do São Miguel",
+      "estradas": [
+        {
+          "id": "seed-e1",
+          "codigo": "VS-001",
+          "nome": "Lagoa dos Cavalos–Torrões",
+          "comunidades": "Lagoa dos Cavalos, Riachão, Torrões",
+          "trechos": [
+            {
+              "id": "seed-t1",
+              "nome": "Lagoa dos Cavalos → Riachão",
+              "kmInicial": 0.0,
+              "kmFinal": 3.2,
+              "status": "emAndamento",
+              "pontos": [[-6.58, -39.0589], [-6.585, -39.0659], [-6.59, -39.0719], [-6.595, -39.0759], [-6.6, -39.0789]]
+            },
+            {
+              "id": "seed-t2",
+              "nome": "Riachão → Torrões",
+              "kmInicial": 3.2,
+              "kmFinal": 5.8,
+              "status": "naoIniciado"
+            },
+            {
+              "id": "seed-t3",
+              "nome": "Acesso ao Sítio Boa Vista",
+              "kmInicial": 5.8,
+              "kmFinal": 7.4,
+              "status": "pontoCritico"
+            }
+          ]
+        },
+        {
+          "id": "seed-e2",
+          "codigo": "VS-002",
+          "nome": "Cedro–Lagoa do Juvenal",
+          "comunidades": "Centro, Lagoa do Juvenal",
+          "trechos": [
+            {
+              "id": "seed-t4",
+              "nome": "Cedro → Lagoa do Juvenal",
+              "kmInicial": 0.0,
+              "kmFinal": 4.5,
+              "status": "programado"
+            }
+          ]
+        },
+        {
+          "id": "seed-e5",
+          "codigo": "VS-003",
+          "nome": "Lagoa do Juvenal–Cajazeiras",
+          "comunidades": "Lagoa do Juvenal, Cajazeiras, Riacho Fundo, Serra da Onça",
+          "trechos": [
+            {
+              "id": "seed-t9",
+              "nome": "Lagoa do Juvenal → Cajazeiras",
+              "kmInicial": 0.0,
+              "kmFinal": 3.4,
+              "status": "emAndamento",
+              "pontos": [[-6.615, -39.045], [-6.625, -39.055], [-6.635, -39.065], [-6.645, -39.075]]
+            },
+            {
+              "id": "seed-t10",
+              "nome": "Cajazeiras → Riacho Fundo",
+              "kmInicial": 3.4,
+              "kmFinal": 7.1,
+              "status": "concluido",
+              "pontos": [[-6.645, -39.075], [-6.652, -39.083], [-6.66, -39.09]]
+            },
+            {
+              "id": "seed-t11",
+              "nome": "Acesso à Serra da Onça",
+              "kmInicial": 7.1,
+              "kmFinal": 9.8,
+              "status": "naoIniciado",
+              "pontos": [[-6.66, -39.09], [-6.668, -39.098]]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-r2",
+      "nome": "Sertão de Cedro",
+      "estradas": [
+        {
+          "id": "seed-e3",
+          "codigo": "SC-001",
+          "nome": "Estrada do Barreiro",
+          "comunidades": "Barreiro, Baixa do Meio, Cabeça de Boi",
+          "trechos": [
+            {
+              "id": "seed-t5",
+              "nome": "Barreiro → Baixa do Meio",
+              "kmInicial": 0.0,
+              "kmFinal": 2.8,
+              "status": "semAvaliacao"
+            },
+            {
+              "id": "seed-t6",
+              "nome": "Baixa do Meio → Cabeça de Boi",
+              "kmInicial": 2.8,
+              "kmFinal": 6.1,
+              "status": "naoIniciado"
+            }
+          ]
+        },
+        {
+          "id": "seed-e4",
+          "codigo": "SC-002",
+          "nome": "Várzea Grande–Olho D'água",
+          "comunidades": "Várzea Grande, Olho D'água, Sítio Novo",
+          "trechos": [
+            {
+              "id": "seed-t7",
+              "nome": "Várzea Grande → Olho D'água",
+              "kmInicial": 0.0,
+              "kmFinal": 5.2,
+              "status": "emAndamento",
+              "latInicio": -6.62,
+              "lngInicio": -39.0389,
+              "latFim": -6.64,
+              "lngFim": -39.0489
+            },
+            {
+              "id": "seed-t8",
+              "nome": "Olho D'água → Sítio Novo",
+              "kmInicial": 5.2,
+              "kmFinal": 8.9,
+              "status": "concluido"
+            }
+          ]
+        },
+        {
+          "id": "seed-e6",
+          "codigo": "SC-003",
+          "nome": "Cabeça de Boi–Baixão",
+          "comunidades": "Cabeça de Boi, Lagoa Grande, Baixão",
+          "trechos": [
+            {
+              "id": "seed-t12",
+              "nome": "Cabeça de Boi → Lagoa Grande",
+              "kmInicial": 0.0,
+              "kmFinal": 4.1,
+              "status": "semAvaliacao",
+              "pontos": [[-6.615, -39.02], [-6.632, -39.008], [-6.65, -38.996]]
+            },
+            {
+              "id": "seed-t13",
+              "nome": "Lagoa Grande → Baixão",
+              "kmInicial": 4.1,
+              "kmFinal": 8.3,
+              "status": "programado",
+              "pontos": [[-6.65, -38.996], [-6.665, -38.985]]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-r3",
+      "nome": "Serra da Mangabeira",
+      "estradas": [
+        {
+          "id": "seed-e7",
+          "codigo": "SM-001",
+          "nome": "Cedro–Serra da Mangabeira",
+          "comunidades": "Mangabeira, Malhada Grande, Boa Fé",
+          "trechos": [
+            {
+              "id": "seed-t14",
+              "nome": "Cedro → Mangabeira",
+              "kmInicial": 0.0,
+              "kmFinal": 2.9,
+              "status": "concluido",
+              "pontos": [[-6.595, -39.062], [-6.605, -39.052], [-6.618, -39.045], [-6.632, -39.04]]
+            },
+            {
+              "id": "seed-t15",
+              "nome": "Mangabeira → Malhada Grande",
+              "kmInicial": 2.9,
+              "kmFinal": 6.4,
+              "status": "emAndamento",
+              "pontos": [[-6.632, -39.04], [-6.648, -39.036]]
+            },
+            {
+              "id": "seed-t16",
+              "nome": "Malhada Grande → Boa Fé",
+              "kmInicial": 6.4,
+              "kmFinal": 8.7,
+              "status": "naoIniciado",
+              "pontos": [[-6.648, -39.036], [-6.664, -39.032]]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-r4",
+      "nome": "Vale do Riacho Doce",
+      "estradas": [
+        {
+          "id": "seed-e8",
+          "codigo": "RD-001",
+          "nome": "Riacho Doce–Mulungu",
+          "comunidades": "Riacho Doce, Mulungu, Feiticeira",
+          "trechos": [
+            {
+              "id": "seed-t17",
+              "nome": "Cedro → Riacho Doce",
+              "kmInicial": 0.0,
+              "kmFinal": 3.6,
+              "status": "programado",
+              "pontos": [[-6.58, -39.075], [-6.59, -39.085], [-6.602, -39.092], [-6.615, -39.096], [-6.628, -39.098]]
+            },
+            {
+              "id": "seed-t18",
+              "nome": "Riacho Doce → Mulungu",
+              "kmInicial": 3.6,
+              "kmFinal": 6.2,
+              "status": "pontoCritico",
+              "pontos": [[-6.628, -39.098], [-6.642, -39.1]]
+            },
+            {
+              "id": "seed-t19",
+              "nome": "Mulungu → Feiticeira",
+              "kmInicial": 6.2,
+              "kmFinal": 8.1,
+              "status": "semAvaliacao",
+              "pontos": [[-6.642, -39.1], [-6.655, -39.104]]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed-r5",
+      "nome": "Baixio de São José",
+      "estradas": [
+        {
+          "id": "seed-e9",
+          "codigo": "BJ-001",
+          "nome": "Estrada do Baixio",
+          "comunidades": "São José do Baixio, Lagoa Nova",
+          "trechos": [
+            {
+              "id": "seed-t20",
+              "nome": "Acesso ao São José do Baixio",
+              "kmInicial": 0.0,
+              "kmFinal": 4.7,
+              "status": "programado"
+            },
+            {
+              "id": "seed-t21",
+              "nome": "São José do Baixio → Lagoa Nova",
+              "kmInicial": 4.7,
+              "kmFinal": 9.4,
+              "status": "naoIniciado"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

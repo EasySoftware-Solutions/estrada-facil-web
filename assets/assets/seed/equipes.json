@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "id": "seed-eq1",
+      "nome": "Equipe Serra Verde"
+    },
+    {
+      "id": "seed-eq2",
+      "nome": "Equipe Baixio"
+    },
+    {
+      "id": "seed-eq3",
+      "nome": "Equipe Riacho do Meio"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "registros": [
+    {
+      "id": "seed-d1",
+      "regiaoId": "seed-r1",
+      "estradaId": "seed-e5",
+      "trechoId": "seed-t9",
+      "codigoEstrada": "VS-003",
+      "nomeEstrada": "Lagoa do Juvenal–Cajazeiras",
+      "nomeTrecho": "Lagoa do Juvenal → Cajazeiras",
+      "data": "2026-09-15T08:30:00.000",
+      "tipoServico": "patrolamento",
+      "kmExecutado": 2.4,
+      "equipe": "Equipe Serra Verde",
+      "maquinas": "Patrulha mecanizada",
+      "ocorrencias": "",
+      "material": null,
+      "autor": ""
+    },
+    {
+      "id": "seed-d2",
+      "regiaoId": "seed-r1",
+      "estradaId": "seed-e1",
+      "trechoId": "seed-t1",
+      "codigoEstrada": "VS-001",
+      "nomeEstrada": "Lagoa dos Cavalos–Torrões",
+      "nomeTrecho": "Lagoa dos Cavalos → Riachão",
+      "data": "2026-09-16T14:00:00.000",
+      "tipoServico": "aplicacaoMaterial",
+      "kmExecutado": 1.2,
+      "equipe": "Equipe Riacho do Meio",
+      "maquinas": "",
+      "ocorrencias": "",
+      "material": {
+        "tipo": "picarra",
+        "quantidade": 60,
+        "unidade": "metroCubico",
+        "viagens": 6,
+        "origem": "Barreira do Cedro"
+      },
+      "autor": ""
+    }
+  ]
+}
