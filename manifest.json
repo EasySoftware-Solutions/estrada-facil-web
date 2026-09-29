@@ -1,11 +1,11 @@
 {
-    "name": "estradafacil",
-    "short_name": "estradafacil",
+    "name": "Estrada Fácil",
+    "short_name": "Estrada Fácil",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#17140F",
+    "theme_color": "#FFB13D",
+    "description": "Comprovação da recuperação de estradas vicinais — mapeie, execute e comprove.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
